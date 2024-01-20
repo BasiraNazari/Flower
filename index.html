@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>flowers-shop</title>
+        <meta name="description" content="Website-Template"> 
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+ </head>
+    <body>
+
+        <section id="banner">
+            <div id="sidenav">
+                <nav>
+                    <button class="menubutton" onclick="this.classList.toggle('showmenue')"><span style="display:inline-block; width:30px;height:30px;">&nbsp;</span></button>
+                    <ul>
+                        <li><a href="#banner">HOME</a></li>
+                        <li><a href="#contain">ÜBER&nbsp;UNS</a></li>
+                        <li><a href="#Gallary">GALLERY</a></li>
+                        <li><a href="#FAQ">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+           
+            <img class="logo" src="img/logo.png" alt="logo">
+            <div class="banner-text">
+                <h1>Flower Desing</h1>
+                <p>Genießen Sie mit unseren Blumen</p>
+                <div class="banner-btn">
+                    <a href="#footer"><span></span>Kontakt</a>
+                    <a href="#footer"><span></span>bestellen</a>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!---Über-uns-->
+    <section id="contain">
+        <div class="title-text">
+            <p>über uns</p>
+            <h1>Willkommen beim Blumenhaus</h1>
+        </div>
+
+        <div class="box">
+            <div class="über-uns">
+                <h1>Flowers desing Ihr Florist in Würzburg</h1>
+                <p>Seit mehr als ... Jahren bieten wir traditionelle und moderne Floristik. Wir machen alles möglich - auch kurzfristig! Besonderen Wert legen wir auf Frische, Qualität und fränkische Blumen und Pflanzen (z. B. Tulpen, Freilandrosen,...)
+                </p>
+            </div>
+
+            <div class="über-uns-img">
+               <img src="img/Frau.jpg" alt="Frau">
+            </div>
+        </div>
+    </section>
+
+    <!---Gallary-->
+    <section id="Gallary">
+        <div class="title-text">
+            <p>Gallary</p>
+            <h1>Jetzt entdecken</h1>
+        </div>
+
+        <div class="gallary-boxs">
+            <div class="allein-gallary">
+                <img src="img/foto 1.jpg" alt="foto 1">
+                <div class="overlay"></div>
+                
+                <div class="desc">
+                    <h1>Geburtstag</h1>
+                    <hr>
+                    <p>Du kannst am Ehrentag eines lieben Menschen nicht selbst vor Ort sein? </p>
+                </div>
+            </div>
+            <div class="allein-gallary">
+                <img src="img/foto 2.jpg" alt="foto 2">
+                <div class="overlay"></div>
+
+                <div class="desc">
+                    <h1>Muttertag</h1>
+                    <hr>
+                    <p>Du kannst am Ehrentag eines lieben Menschen nicht selbst vor Ort sein?</p>
+                </div>
+            </div>
+            <div class="allein-gallary">
+                <img src="img/foto 3.jpg" alt="foto 3">
+                <div class="overlay"></div>
+
+                <div class="desc">
+                    <h1>Festtage</h1>
+                    <hr>
+                    <p>Ihr geht schon seit längerer Zeit gemeinsam durchs Leben? ein Grund zu feiern!</p>
+                </div>
+            </div>
+            <div class="allein-gallary">
+                <img src="img/foto 4.jpg" alt="foto 4">
+                <div class="overlay"></div>
+
+                <div class="desc">
+                    <h1>Jahrestag</h1>
+                    <hr>
+                    <p>Ihr geht schon seit längerer Zeit gemeinsam durchs Leben? ein Grund zu feiern!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!----FAQ--->
+
+    <section id="FAQ">
+        <div class="title-text">
+            <p>FAQ</p>
+            <h1>Häufige Fragen</h1>
+        </div>
+        <div class="FAQ_row">
+            <div class="FAQ-col">
+                <p>Bis wann muss ich bestellen, damit die Blumen noch am gleichen tag versandt werden? und ist meine Bestellung anonym?</p>
+            </div>
+            <div class="FAQ-col">
+                <p>wer ünernimmt den versand meiner Blumen und wie hoch sind die Versandkosten? kann ich selber eine genaue Uhrzeit vorgeben? </p>
+            </div>
+            <div class="FAQ-col">
+                <p>welche zahlungsarten stehen mir bei Flower Desing zur Verfügung?
+                    und wie kann ich einen Gutschein einlösen?
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <!------Footer---->
+    <section  class="footer" id="footer">
+        <div class="title-text">
+            <p>kontakt</p>
+            <h1>kontaktiere uns</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h2 class="hidden">kontaktformular</h2>
+            <p>Mit dem folgenden Formular können Sie uns eine Nachricht schicken.
+                Bitte füllen Sie alle Felder aus.</p>
+                <br>
+
+                <form>
+                    <div>
+                        <label for="besuchername">Ihr Name: </label>
+                        <input type="text" id="besuchername" name="besuchername" required>
+                    </div>
+                    <div>
+                        <label for="besuchermail">Ihre E-Mail: </label>
+                        <input type="email" id="besuchermail" name="besuchermail" required> 
+                    </div>
+                    <div>
+                        <label for="nachricht">Ihre Nachricht: </label>
+                        <textarea id="nachricht" name="nachricht" cols="30" rows="5" required></textarea>
+                    </div>
+                    <div>
+                         <label for="dsgvo">DSGVO-Einverständnis</label>
+                         <small><label><input type="checkbox" id="dsgvo" name="dsgvo" required> Speicherung und Verarbeitung Ihrer Daten durch diese Website einverstanden</label> (<a href="#" target="_blank" >Datenschutzerklärung</a>).</small>
+                    </div>
+                    <button type="submit" value="Abgeschickt">Abgeschicken</button>
+                </form>
+            </div>
+
+
+
+            <div class="footer-right">
+                <h2>Sozial Netzwerke</h2>
+                <br>
+                <img src="img/icons8-pinterest-40.png" alt="pinterest">
+                
+                <img src="img/icons8-youtube-40.png" alt="youtube">
+                
+                <img src="img/icons8-instagram-48 (1).png" alt="instagram">
+                <br>
+                <br>
+                <br>
+                 <h3>Öffnungszeiten</h3><br>
+                 <p>Montag bis Freitag - 9 bis 18 Uhr</p>
+                 <p>Samstag - 10 bis 14 Uhr</p>
+                 <br>
+                 <br>
+                 <h3>Address</h3><br>
+                 <p>Hauptstraße 23 , 909090 Würzburg</p>
+                 <p>flowerdesign@gmail.com</p>
+                 <p>00491346578950</p>
+            </div>
+        </div>
+
+       
+    </section>
+    <script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+        speedAsDuration: true
+    });
+</script>
+    </body>
+</html>
